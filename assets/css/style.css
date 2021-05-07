@@ -27,6 +27,14 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.h3, h3{
+
+font-size: 2rem;
+color: #4682B4;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+
 ul {
     display: block;
     list-style-type: disc;
@@ -232,7 +240,7 @@ dl, ol, ul {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 60vh;
   background: url("../img/imgfond.jpg") top center;
   background-size: cover;
 }
@@ -433,12 +441,21 @@ section {
 .skills .progress .skill {
   padding: 0;
   margin: 0 0 6px 0;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   display: block;
-  font-weight: 600;
+  /* font-weight: 600; */
   font-family: "Poppins", sans-serif;
-  color: #050d18;
+  font-size: 25px;
+  /* color: #050d18; */
 }
+
+.skill i{
+  color: #1f5297;
+  margin-right: 7px;
+}
+
+
+
 
 .skills .progress .skill .val {
   float: right;
